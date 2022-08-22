@@ -1,3 +1,6 @@
+*{
+    color: white;
+}
 body{
 	font-family: arial, helvetica;
 	background: #e8e8e8;
@@ -41,4 +44,21 @@ article{
 	background-color: #48055c;
 	color: white;
 	border: 2px solid white;
+}
+.footer-columna{
+    color: white;
+    padding: 20px;
+}
+.contacto-email{
+    padding: 20px;
+    color: white;
+}
+.call{
+    width: 50%;
+    color: #fff;
+    border: 2px solid #000;
+    background-color: rgba(51, 51, 51, 0.5);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:20px;
 }
