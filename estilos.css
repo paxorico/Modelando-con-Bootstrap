@@ -1,0 +1,44 @@
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+    background-image: url(./media/1366_2000.jpeg);
+    background-size: cover;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #48055c;
+	width: auto;
+	max-width: auto;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+header{
+	background-color: crimson;
+	color: white;
+}
+main{
+	background-color: #18055c;
+    color: white;
+}
+article{
+	background-color: #48055c;
+	color: white;
+	border: 2px solid white;
+}
