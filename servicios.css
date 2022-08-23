@@ -87,3 +87,13 @@ article{
     height: 200px;
     border-radius: 10px;
 }
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-catalogo{
+	background-color: black;
+	padding: 50px;
+	text-align: center;
+	font-size: 20px;
+}
