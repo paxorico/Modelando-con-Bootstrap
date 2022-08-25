@@ -20,19 +20,16 @@ body{
 	max-width: auto;
 	margin: auto;
 }
-
 .menu li a{
 	text-decoration: none;
 	color: white;
 	padding: 20px;
 	display: block;
 }
-
 .menu li{
 	display: inline-block;
 	text-align: center;
 }
-
 .menu li a:hover{
 	background: #ef8354;
 }
@@ -91,9 +88,17 @@ article{
     display: flex;
     justify-content: space-around;
 }
-.footer-catalogo{
-	background-color: black;
-	padding: 50px;
-	text-align: center;
-	font-size: 20px;
+footer{
+    background-color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer i{
+    letter-spacing: 20px;
+    font-size: 40px;
+    color: #48055c;
+    margin-top: 20px;
 }

@@ -6,6 +6,7 @@ body{
 	background: #e8e8e8;
     background-image: url(./media/1366_2000.jpeg);
     background-size: cover;
+    background-position: center;
 }
 .menu{
 	list-style: none;
@@ -41,10 +42,6 @@ article{
 	color: white;
 	border: 2px solid white;
 }
-.footer-columna{
-    color: white;
-    padding: 20px;
-}
 .contacto-email{
     padding: 20px;
     color: white;
@@ -63,13 +60,6 @@ article{
 	text-align: center;
 	padding: 50px;
 	background-color: rgba(128, 128, 128, 0.678);
-}
-.footer-catalogo{
-	background-color: black;
-	padding: 50px;
-	text-align: center;
-	font-size: 20px;
-	margin-top:67px;
 }
 .call a{
     background-color:#48055c;
@@ -99,5 +89,19 @@ article{
     background-color: #333;
     transition: all 0.8s;
     border: 2px solid #48055c;
+}
+footer{
+    background-color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+footer i{
+    letter-spacing: 20px;
+    font-size: 40px;
+    color: #48055c;
+    margin-top: 20px;
 }
 
