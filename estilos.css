@@ -7,7 +7,6 @@ body{
     background-image: url(./media/1366_2000.jpeg);
     background-size: cover;
 }
-
 .menu{
 	list-style: none;
 	padding: 0;
@@ -16,19 +15,16 @@ body{
 	max-width: auto;
 	margin: auto;
 }
-
 .menu li a{
 	text-decoration: none;
 	color: white;
 	padding: 20px;
 	display: block;
 }
-
 .menu li{
 	display: inline-block;
 	text-align: center;
 }
-
 .menu li a:hover{
 	background: #ef8354;
 }
@@ -75,3 +71,33 @@ article{
 	font-size: 20px;
 	margin-top:67px;
 }
+.call a{
+    background-color:#48055c;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 7px;
+    border: 2px solid #333;
+}
+.call a:hover{
+    background-color: #333;
+    transition: all 0.8s;
+    border: 2px solid #48055c;
+}
+.container-button{
+	background-color:#ffffff;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-transform: capitalize;
+    border-radius: 7px;
+    border: 2px solid #333;
+	text-decoration: none;
+}
+.container-button:hover{
+    background-color: #333;
+    transition: all 0.8s;
+    border: 2px solid #48055c;
+}
+
