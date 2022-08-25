@@ -102,3 +102,14 @@ footer i{
     color: #48055c;
     margin-top: 20px;
 }
+
+@media only screen and (min-width: 500px) {
+    .card {
+      grid-template-columns: 1fr 1fr;
+    }  
+  }
+  @media only screen and (min-width: 850px) {
+    .card {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
